@@ -58,6 +58,7 @@ class _SignupState extends State<Signup> {
       
       appBar: AppBar(
         backgroundColor: Colors.blue,
+              
         title: Center(
           child: Container(
             child: Text("SignUp",style: TextStyle(fontWeight: FontWeight.w500,color: Colors.white),),
@@ -68,7 +69,7 @@ class _SignupState extends State<Signup> {
       body: Center(
         child: Container(
           padding: EdgeInsets.all(10),
-          child: SingleChildScrollView(
+          child: SingleChildScrollView   (
             child: Column(
                mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
